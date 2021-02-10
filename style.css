@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    padding-top: 800px;
+    text-align: center;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background: linear-gradient(#e52165 0%, #0d1137 100%);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: table;
+    z-index: 9;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+
+}
+
+.Pfp {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+
+
+}
+
+.divisionInner {
+    text-align: center;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 75px;
+    margin: 8px auto;
+
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    z-index: 10;
+    cursor: pointer;
+    color: white;
+
+}
+
+.links {
+    float: left;
+    padding-left: 11px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.links:hover {
+    background-color: black;
+
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.article {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: blue;
+}
+.article:hover{
+    color:palevioletred;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
